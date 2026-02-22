@@ -92,6 +92,12 @@ openclaw/
 - **Letta** ⭐ 21K - 有状态代理平台
 - **Composio** ⭐ 27K - 1000+ 工具集成平台
 
+### RAG 技术
+- **RAGFlow** ⭐ 73K - 最火 RAG 引擎 + Agent
+- **GraphRAG** ⭐ 31K - Microsoft 基于图的 RAG
+- **LightRAG** ⭐ 29K - 简单快速的 RAG
+- **RAG Techniques** ⭐ 26K - RAG 技术大全
+
 ### 自动化工作流
 - **n8n** ⭐ 176K - 400+ 集成，AI 原生工作流
 - **Dify** ⭐ 130K - 代理工作流开发平台
