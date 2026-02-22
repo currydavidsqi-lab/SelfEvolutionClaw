@@ -92,6 +92,12 @@ openclaw/
 - **Letta** ⭐ 21K - 有状态代理平台
 - **Composio** ⭐ 27K - 1000+ 工具集成平台
 
+### 自动化工作流
+- **n8n** ⭐ 176K - 400+ 集成，AI 原生工作流
+- **Dify** ⭐ 130K - 代理工作流开发平台
+- **Apache Airflow** ⭐ 44K - 工作流编排
+- **Activepieces** ⭐ 21K - AI 自动化 + MCP
+
 ### 技能生态
 - **Antigravity Awesome Skills** ⭐ 14K - 889+ 通用技能
 - **MCP Servers** ⭐ 81K - MCP 服务器集合
