@@ -74,7 +74,15 @@ python scripts/generate_ppt.py --topic "产品设计" --output ~/Documents/demo.
 ## 安装依赖
 
 ```bash
-pip install python-pptx
+# 创建虚拟环境
+cd /home/curry/openclaw/projects/custom-skills/ppt-generator
+python3 -m venv .venv
+
+# 安装依赖
+.venv/bin/pip install python-pptx
+
+# 运行（使用虚拟环境）
+.venv/bin/python scripts/generate_ppt.py --topic "主题" --slides 10
 ```
 
 ## 注意事项
