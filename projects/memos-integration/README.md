@@ -34,21 +34,64 @@
 
 ---
 
-### 阶段 2：API 研究 ⏳
-**待完成**：
-- [ ] 阅读 MemOS API 文档
-- [ ] 安装 MemOS SDK
-- [ ] 测试基本 API 调用
-- [ ] 了解认证机制
+### 阶段 2：API 研究 ✅
+**已完成**：
+- ✅ 阅读 MemOS API 文档
+- ✅ 了解认证机制（API Key）
+- ✅ 创建 Demo 代码
+- ⏳ 测试基本 API 调用（需要 API Key）
+
+**API 端点**：
+- 添加记忆：`POST /product/add`
+- 搜索记忆：`POST /product/search`
+- 列出记忆：`GET /product/list`
+
+**依赖**：
+- Neo4j（图数据库）
+- Embedder（向量化）
+- LLM API（OpenAI/百炼）
 
 **资源**：
 - 官网：https://memos.openmem.net/
 - 文档：https://memos-docs.openmem.net/
 - GitHub：https://github.com/MemTensor/MemOS
+- API Key：https://memos-dashboard.openmem.net/apikeys/
 
 ---
 
-### 阶段 3：集成设计 ⏳
+### 阶段 3：快速测试 ⏳
+
+**方式 1：MemOS Cloud（推荐）**
+```bash
+# 1. 获取 API Key
+# 访问：https://memos-dashboard.openmem.net/apikeys/
+
+# 2. 设置环境变量
+export MEMOS_API_KEY="your-api-key"
+
+# 3. 运行 Demo
+python memos_demo.py
+```
+
+**方式 2：本地部署**
+```bash
+# 1. 克隆项目
+git clone https://github.com/MemTensor/MemOS.git
+cd MemOS
+
+# 2. 配置 .env
+# 参考：https://memos-docs.openmem.net/open_source/getting_started/installation
+
+# 3. Docker 启动
+docker compose up
+
+# 4. 访问 API
+# http://localhost:8000/docs
+```
+
+---
+
+### 阶段 4：集成设计 ⏳
 **待完成**：
 - [ ] 设计集成架构
 - [ ] 确定数据流向
@@ -63,7 +106,7 @@
 
 ---
 
-### 阶段 4：原型实现 ⏳
+### 阶段 5：原型实现 ⏳
 **待完成**：
 - [ ] 搭建开发环境
 - [ ] 实现基本存储功能
@@ -77,7 +120,7 @@
 
 ---
 
-### 阶段 5：测试验证 ⏳
+### 阶段 6：测试验证 ⏳
 **待完成**：
 - [ ] 单元测试
 - [ ] 集成测试
